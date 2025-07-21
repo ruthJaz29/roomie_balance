@@ -1,0 +1,81 @@
+img {
+  width: 6.2rem;
+  height: 6.2rem;
+  border-radius: 20%;
+  opacity: 0.75;
+}
+img:hover{
+  opacity: 1;
+}
+
+.main {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: auto;
+  font-style: normal;
+  background-color: #243642;
+  color: white;
+  
+}
+
+.menubar {
+  position: sticky;
+  top: 0;
+  background-color: #243642;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0 1rem 0;
+  height: 7.8rem;
+  margin-right: 3rem;
+  margin-left: 3rem;
+  
+}
+.opt{
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-right: 3rems;
+
+}
+
+.menu_opt {
+  background-color: #629584;
+  border-radius: 10%;
+  height: 3.2rem;
+  width: 6rem;
+  display: flex;
+  padding: 0 0.5rem 0 0.5rem;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  border: rgb(56, 116, 120);
+  border: 0.75rem;
+  font-weight: 800;
+
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.menu_opt:hover{
+  background-color:aliceblue ;
+  color: black;
+
+}
+.opt button{
+  padding: 0 0.5rem 0 0.5rem;
+  margin: 0 0.5rem 0 0.5rem;
+}
+
+.content {
+  flex: 1;
+  border-radius: 1rem;
+  padding: 0 1.5rem 0 1.5rem;
+  margin-top: 5 rem;
+
+}
+
+.cpy{
+  align-content: center;
+}
